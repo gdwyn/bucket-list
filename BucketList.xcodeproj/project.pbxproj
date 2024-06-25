@@ -11,6 +11,9 @@
 		CE5A84082C162967008FDA54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A84072C162967008FDA54 /* ContentView.swift */; };
 		CE5A840A2C16296A008FDA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A84092C16296A008FDA54 /* Assets.xcassets */; };
 		CE5A840D2C16296A008FDA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A840C2C16296A008FDA54 /* Preview Assets.xcassets */; };
+		CEA976042C1FBECA007ECEB9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA976032C1FBECA007ECEB9 /* Location.swift */; };
+		CEB25F6C2C21E43100C97CB6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB25F6B2C21E43100C97CB6 /* EditView.swift */; };
+		CECB01852C2A4BB300ED22E3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB01842C2A4BB300ED22E3 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CE5A84072C162967008FDA54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE5A84092C16296A008FDA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5A840C2C16296A008FDA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA976032C1FBECA007ECEB9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CEB25F6B2C21E43100C97CB6 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		CECB01842C2A4BB300ED22E3 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				CE5A84052C162967008FDA54 /* BucketListApp.swift */,
 				CE5A84072C162967008FDA54 /* ContentView.swift */,
+				CEB25F6B2C21E43100C97CB6 /* EditView.swift */,
+				CEA976032C1FBECA007ECEB9 /* Location.swift */,
+				CECB01842C2A4BB300ED22E3 /* Result.swift */,
 				CE5A84092C16296A008FDA54 /* Assets.xcassets */,
 				CE5A840B2C16296A008FDA54 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5A84082C162967008FDA54 /* ContentView.swift in Sources */,
+				CECB01852C2A4BB300ED22E3 /* Result.swift in Sources */,
+				CEA976042C1FBECA007ECEB9 /* Location.swift in Sources */,
+				CEB25F6C2C21E43100C97CB6 /* EditView.swift in Sources */,
 				CE5A84062C162967008FDA54 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To secure your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To secure your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
