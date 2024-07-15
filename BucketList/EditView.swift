@@ -30,6 +30,7 @@ struct EditView: View {
                 }
                 
                 Section("Nearby places") {
+                    
                     switch loadingState {
                     case .loading:
                         Text("LOADING...")
@@ -48,6 +49,7 @@ struct EditView: View {
                     case .failed:
                         Text("Please try again later...")
                     } //switch
+                    
                 }
             }
             .navigationTitle("Place details")
